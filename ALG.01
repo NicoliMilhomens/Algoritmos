@@ -1,0 +1,33 @@
+Pograma "AULA"
+Var
+// Seção de Declarações das variáveis 
+
+A, B, C, R: Real
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+
+   Escreva ("Informe o valor: ")
+   Leia (A)
+         A <- (A*1.30)
+         EscrevaL("O valor atualizado é: ", A)
+        
+   Escreva ("Informe o valor: ")
+   Leia (B)
+         B <- (B*1.30)
+          EscrevaL("O valor atualizado é: ", B)
+        
+   Escreva ("Informe o valor: ")
+   Leia (C)
+         C <- (C*1.30)
+        EscrevaL("O valor atualizado é: ", C)
+        
+                    R <- (A + B + C)
+                    EscrevaL ("O valor total é: ", R)
+                    
+   	              R <- (A + B + C)/3
+	                 Escreva ("Parcelamento em 3x. O valor de cada parcela é: ", R)
+
+        
+Fimalgoritmo
